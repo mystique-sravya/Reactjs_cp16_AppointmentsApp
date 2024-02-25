@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+}
+
+.add-appointment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.heading {
+  font-size: 30px;
+  color: #171f46;
+}
+.label {
+  color: #9796f0;
+  font-size: 15px;
+}
+.title {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.date {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.add-btn {
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  cursor: pointer;
+}
+.appointment-img {
+  width: 100%;
+  height: auto;
+}
+.appointment-list-main {
+  display: flex;
+  flex-direction: column;
+}
+.heading-button-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading2 {
+  font-size: 28px;
+  color: #171f46;
+}
+.starred-btn {
+  margin-top: 2em;
+  background-color: transparent;
+  outline: thin;
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.filter-active-bg {
+  background-color: #9897f0;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+.filter-inactive-bg {
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  background-color: transparent;
+}
